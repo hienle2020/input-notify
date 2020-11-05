@@ -1,0 +1,26 @@
+{
+  "name": "input-notify",
+  "version": "1.0.0",
+  "description": "show input notify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hienkk",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hienle2020/input-notify.git"
+  },
+  "keywords": [
+    "input",
+    "notify"
+  ],
+  "bugs": {
+    "url": "https://github.com/hienle2020/input-notify/issues"
+  },
+  "homepage": "https://github.com/hienle2020/input-notify#readme",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
