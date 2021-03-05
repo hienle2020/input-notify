@@ -36,9 +36,11 @@
 			var html = `<span class="c-notify--error"
 							style="color:${plugin.settings.color};background-color:${plugin.settings.background}"><i style="border-bottom-color:${plugin.settings.background}!important;"></i>${icon} ${data}</span>`;
 			$element.addClass('u-position-relative').append(html);
-			setTimeout(function(){
-				$element.find('span[class*="c-notify"]').remove()
-			}, timeHide);
+			if (timeHide > 0) {
+				setTimeout(function () {
+					$element.find('span[class*="c-notify"]').remove()
+				}, timeHide);
+			}
 		}	
 		plugin.init();
 	}
