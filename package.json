@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/hienle2020/input-notify#readme",
   "dependencies": {
-    "jquery": "^3.5.1"
+    "jquery": "^3.6.0"
   },
   "devDependencies": {}
 }
